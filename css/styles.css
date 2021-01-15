@@ -144,6 +144,7 @@ p {
     .title-image {
         position: static;
         transform: rotate(0);
+        text-align: center;
     }
     #title {
         text-align: center;
