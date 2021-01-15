@@ -169,7 +169,7 @@ p {
 @media (max-width: 1028px) {
     
     #title {
-        text-align: left;
+        text-align: center;
     }
 
     .titled-row {
@@ -180,6 +180,10 @@ p {
         position: static;
         transform: rotate(0);
         width: 60%;
+    }
+
+    .collapsed-left {
+        text-align: left;
     }
     
 }
