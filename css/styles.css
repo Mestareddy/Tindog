@@ -48,7 +48,7 @@ p {
 }
 
 .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -60,7 +60,6 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
-    /* font-weight: light; */
 }
 
 /* Buttons */
@@ -94,15 +93,14 @@ p {
 
 #features {
     position: relative;
-    /* z-index: 1; */
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 .feature-box {
     padding: 5%;
-}
-
-.feature-title {
-    font-size: 1.5;
 }
 
 .icon {
@@ -145,7 +143,6 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .price-text {
